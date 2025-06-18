@@ -1,3 +1,7 @@
+document.getElementById('myplanet').addEventListener('click', function() {
+    alert('Yippee!');
+});
+
 window.addEventListener('load', function() {
     loadSystemName();
     
