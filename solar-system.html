@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solar system</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="solar-body">
+    <div class="stars"></div>
+    
+    <div class="solar-header">
+        <h1 id="system-name">our solar system</h1>
+        <div class="name-controls">
+            <input type="text" id="system-input" placeholder="name your solar system">
+            <button id="save-name">save name</button>
+        </div>
+        <a href="index.html" class="back-btn">back to planets</a>
+    </div>
+
+    <div class="solar-system">
+        <div class="sun">
+            <img src="images/sun.png" alt="sun" data-name="sun">
+        </div>
+        
+        <div class="planet-orbit" data-name="mercury">
+            <img src="images/mercury.png" alt="mercury">
+        </div>
+        
+        <div class="planet-orbit" data-name="venus">
+            <img src="images/venus.png" alt="venus">
+        </div>
+        
+        <div class="planet-orbit" data-name="earth">
+            <img src="images/earth.png" alt="earth">
+        </div>
+        
+        <div class="planet-orbit" data-name="mars">
+            <img src="images/mars.png" alt="mars">
+        </div>
+        
+        <div class="planet-orbit" data-name="jupiter">
+            <img src="images/jupiter.png" alt="jupiter">
+        </div>
+        
+        <div class="planet-orbit" data-name="saturn">
+            <img src="images/saturn.png" alt="saturn">
+        </div>
+        
+        <div class="planet-orbit" data-name="uranus">
+            <img src="images/uranus.png" alt="uranus">
+        </div>
+        
+        <div class="planet-orbit" data-name="neptune">
+            <img src="images/neptune.png" alt="neptune">
+        </div>
+    </div>
+
+    <div class="popup" id="planet-popup">
+        <div class="popup-content">
+            <h2 id="popup-title">planet name</h2>
+            <button id="close-popup">close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
