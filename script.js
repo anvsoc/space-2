@@ -1,6 +1,4 @@
-document.getElementById('myplanet').addEventListener('click', function() {
-    alert('Yippee!');
-});
+
 
 window.addEventListener('load', function() {
     loadSystemName();
@@ -17,6 +15,10 @@ window.addEventListener('load', function() {
             showPopup(planetName);
         });
     });
+
+    document.getElementById('myplanet').addEventListener('click', function() {
+    alert('Yippee!');
+});
     
     let saveBtn = document.getElementById('save-name');
     if (saveBtn) {
