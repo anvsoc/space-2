@@ -1,4 +1,7 @@
-
+document.getElementById('myplanet').addEventListener('click', function() {
+    this.style.backgroundColor = 'yellow';
+    this.style.color = 'black';
+});
 
 window.addEventListener('load', function() {
     loadSystemName();
@@ -16,9 +19,7 @@ window.addEventListener('load', function() {
         });
     });
 
-    document.getElementById('myplanet').addEventListener('click', function() {
-    alert('Yippee!');
-});
+
     
     let saveBtn = document.getElementById('save-name');
     if (saveBtn) {
